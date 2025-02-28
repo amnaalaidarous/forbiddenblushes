@@ -68,7 +68,7 @@ class Customer:
 
     def placeOrder(self, order):
    # Returns a confirmation message for the placed order.
-    return f"Placed Order for: {order.getOrderID()}"
+        return f"Placed Order for: {order.getOrderID()}"
 
 
     # Method to display customer information
