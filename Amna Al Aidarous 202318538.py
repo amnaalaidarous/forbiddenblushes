@@ -66,9 +66,10 @@ class Customer:
     def getAddress(self):
         return self.address
 
-    # ServiceUnavailable method to return a message if service is unavailable for an order
-    def ServiceUnavailable(self, order):
-        return f"Delivery Service Unavailable for: {order.getOrderID()}"
+    def placeOrder(self, order):
+   # Returns a confirmation message for the placed order.
+    return f"Placed Order for: {order.getOrderID()}"
+
 
     # Method to display customer information
     def displayCustomerInfo(self):
